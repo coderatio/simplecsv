@@ -1,0 +1,22 @@
+{
+    "name": "coderatio/simplecsv",
+    "description": "A simple csv wrapper for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah Yahaya",
+            "email": "josiahoyahaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Coderatio\\SimpleCsv\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
